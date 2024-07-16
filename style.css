@@ -1,0 +1,58 @@
+*{
+    background-color: blue;
+}
+
+#h1fornumber1{
+    background-color: aqua;
+    text-indent:50px;
+}
+
+
+.newstyle{
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #b0c4de;
+    background-image:url("vue.jpg");
+    background-repeat: no-repeat;
+    background: #000 url("vue.jpg") repeat left bottom;
+
+}
+
+#newidstyle{
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+p{
+    background-color: black;
+    width: 30%;
+    height: 100px;
+    margin-top: 20px;
+    text-decoration: line-through;
+}
+
+div{
+    background-color: white;
+}
+
+h1{
+    background-color: yellow;
+    color:#b0c4de;
+}
+
+#h1fornumber2{
+    background-color: bisque;
+    text-align:right;
+    text-transform:capitalize;
+}
+
+.newdiv{
+    width: 10%;
+}
+
+
+
