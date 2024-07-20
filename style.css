@@ -1,33 +1,83 @@
-*{
+
+#h1fornumber1 {
+    background-color: aqua;
+    text-indent: 50px;
+}
+
+
+
+* {
     background-color: blue;
 }
 
-#h1fornumber1{
+
+
+#h1fornumber1 {
     background-color: aqua;
-    text-indent:50px;
+    text-indent: 50px;
+}
+
+.samer:link {
+    color: red;
+    font-size: 100px;
+
+}
+
+a:hover {
+    font-size: 100px;
+    color: #FF00FF;
+}
+
+.samer:hover {
+    color: #FF00FF;
+}
+
+.samer:active {
+    color: #000000;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #000000;
+}
+
+/* sdfgsfdsgdfgsdf */
+.kalnia-glaze {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 
-.newstyle{
+.newstyle {
     background-color: green;
     width: 100%;
     height: 100px;
     margin-top: 20px;
     background-color: #b0c4de;
-    background-image:url("vue.jpg");
+    background-image: url("vue.jpg");
     background-repeat: no-repeat;
     background: #000 url("vue.jpg") repeat left bottom;
 
 }
 
-#newidstyle{
+#newidstyle {
     background-color: red;
     width: 50%;
     height: 100px;
     margin-top: 20px;
 }
 
-p{
+p {
     background-color: black;
     width: 30%;
     height: 100px;
@@ -35,24 +85,21 @@ p{
     text-decoration: line-through;
 }
 
-div{
+div {
     background-color: white;
 }
 
-h1{
+h1 {
     background-color: yellow;
-    color:#b0c4de;
+    color: #b0c4de;
 }
 
-#h1fornumber2{
+#h1fornumber2 {
     background-color: bisque;
-    text-align:right;
-    text-transform:capitalize;
+    text-align: right;
+    text-transform: capitalize;
 }
 
-.newdiv{
+.newdiv {
     width: 10%;
 }
-
-
-
