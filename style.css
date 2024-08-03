@@ -1,4 +1,3 @@
-
 #h1fornumber1 {
     background-color: aqua;
     text-indent: 50px;
@@ -27,6 +26,7 @@ a:hover {
     font-size: 100px;
     color: #FF00FF;
 }
+
 
 .samer:hover {
     color: #FF00FF;
@@ -57,6 +57,13 @@ a:active {
     font-variation-settings: "wdth" 100;
 }
 
+.opstic{
+    opacity: 0.4;
+}
+
+.opstic:hover{
+    opacity: 1;
+}
 
 .newstyle {
     background-color: green;
@@ -75,6 +82,7 @@ a:active {
     width: 50%;
     height: 100px;
     margin-top: 20px;
+    opacity:0.1;
 }
 
 p {
@@ -83,6 +91,7 @@ p {
     height: 100px;
     margin-top: 20px;
     text-decoration: line-through;
+    overflow: hidden;
 }
 
 div {
@@ -103,3 +112,18 @@ h1 {
 .newdiv {
     width: 10%;
 }
+
+.P_newdiv {
+    overflow: hidden;
+}
+
+.boxing{
+    height: 100px;
+    width: 70%;
+    border-bottom-left-radius: 24px;
+    margin:10px 5px 15px 20px;
+
+
+}
+
+/* 8 16 24 32 40 64 */
