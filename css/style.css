@@ -1,0 +1,408 @@
+
+
+.InventoryBalance {
+    width: 100%;
+    height: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #F4F4F4;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+
+}
+
+.TextInventoryBalance {
+    text-align: right;
+    color: #7A7A7A;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+
+.InventoryBalance:hover {
+    width: 100%;
+    height: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 16px;
+    border: 3px #2E90FB solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    background-color: white;
+}
+
+.InventoryBalance:hover .TextInventoryBalance {
+    color: #2E90FB;
+}
+
+.InventoryBalance:hover .TextInventoryBalance {
+    color: #2E90FB;
+}
+
+
+.bottom-right-menu{
+    background: #F4F4F4;
+}
+
+.line-divider {
+    height: 100%;
+    width: 16px;
+    background-color: #F4F4F4;
+    border-radius: 16px;
+}
+
+.btn-primary {
+    background-color: rgba(46, 144, 250, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    border-radius: 54px;
+    height: 108px;
+    cursor: pointer;
+    overflow: visible;
+    margin-top: 20px;
+    --web-animation: fadein 0.800000011920929s ease-in-out;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.form-control::placeholder {
+    text-align: center;
+}
+
+select option {
+    text-align: center;
+}
+
+select option:checked {
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Rectangle_1 {
+    background-color: rgba(249, 249, 249, 1);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#Rectangle_2 {
+    fill: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#Rectangle_3 {
+    fill: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#Rectangle_41 {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Rectangle_41 {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 0;
+    padding-bottom: 83.9%;
+    /* 789/939*100 */
+}
+
+.Rectangle_48 {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: auto;
+    left: 1448px;
+    top: 652px;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clickable:hover {
+    background-color: #f8f9fa;
+}
+
+.clickable:active {
+    background-color: #e9ecef;
+}
+
+.btn-infoo {
+    background-color: rgba(46, 144, 250, 1);
+    color: white;
+    border-radius: 400px;
+    height: 65px;
+}
+
+.btn-infoo:hover {
+    background-color: rgba(108, 117, 125, 1);
+    border-color: rgba(108, 117, 125, 1);
+    color: white;
+}
+
+.btn-infoo:hover:not(.disabled):not([disabled]):not(.active),
+.btn-infoo:focus:not(.disabled):not([disabled]):not(.active) {
+    background-color: rgba(108, 117, 125, 1);
+    border-color: rgba(108, 117, 125, 1);
+    color: white;
+}
+
+.btn-infoo:not(:disabled):not(.disabled):active,
+.btn-infoo:not(:disabled):not(.disabled).active,
+.show>.btn-infoo.dropdown-toggle {
+    background-color: rgba(108, 117, 125, 1);
+    border-color: rgba(108, 117, 125, 1);
+    color: white;
+}
+
+.btn-infoo:not(:disabled):not(.disabled):active:focus,
+.btn-infoo:not(:disabled):not(.disabled).active:focus,
+.show>.btn-infoo.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(108, 117, 125, 1);
+    border-color: rgba(108, 117, 125, 1);
+    color: white;
+}
+
+html, body {
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.container {
+    max-width: 100%; /* Ensure the container doesn't extend beyond the viewport width */
+}
+
+.btn-outline-danger-1 {
+    --bs-btn-color: #000000;
+    --bs-btn-border-color: #35dcd4;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: #35dcd4;
+    --bs-btn-hover-border-color: #35dcd4;
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #35dcd4;
+    --bs-btn-active-bg: #35dcd4;
+    --bs-btn-active-border-color: #35dcd4;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #35dcd4;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #dc3545;
+    --bs-gradient: none;
+  }
+  .btn-primary-1 {
+  
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+  }
+  /* CSS for the category containers */
+  .category-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(46, 144, 250, 1);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+}
+
+/* Change the background color on hover */
+.category-container:hover {
+    background-color: rgba(245, 245, 245, 0.9);
+}
+
+.category-container p {
+    font-size: 18px;
+    text-align: center; /* Center the text */
+}
+
+.category-container i {
+    margin-right: 0px;
+    font-size: 24px;
+}
+
+.buttons-container {
+    display: flex;
+}
+
+.buttons-container a {
+    text-decoration: none;
+}
+
+.buttons-container button {
+    font-size: 14px;
+    padding: 5px 8px;
+    border: 20px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+/* Style for the "طلب جديد" button container */
+
+
+html, body {
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.container {
+    max-width: 100%; /* Ensure the container doesn't extend beyond the viewport width */
+}
+  
+.logo-img-small {
+    max-width: 100px; /* Adjust the size as needed */
+    max-height: 100px; /* Adjust the size as needed */
+}
+.admin-button {
+background-color: blue;
+color: white;
+width:auto; /* Adjust the width as needed */
+padding: 5px 10px; /* Adjust padding as needed */
+border-radius: 20px;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logout-button {
+background-color: red;
+color: white;
+width: auto; /* Adjust the width as needed */
+padding: 5px 10px;
+border-radius: 20px;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* Adjust the margin as needed for spacing */
+.ml-3 {
+margin-left: 15px; /* Add margin to create space */
+}
+
+/* Additional custom CSS to align items to the left */
+.d-flex.align-items-center.justify-content-start {
+justify-content: flex-start;
+align-items: center;
+}
+.admin-button a {
+text-decoration: none; /* Remove the underline */
+color: blue; /* Set the initial text color */
+}
+
+.admin-button a:hover {
+color: blue; /* Set the text color to blue on hover */
+}
+
+.admin-button .fa-crown {
+color: white; /* Set the initial icon color */
+}
+
+.admin-button a:hover .fa-crown {
+color: blue; /* Set the icon color to blue on hover */
+}
+
+
+.logout-button a:hover .fa-lock {
+color:#910404;
+}
+.custom-search-input {
+background-color: #f2f2f2;
+border: none;
+border-bottom: 2px solid #32a1ce;
+padding: 10px 15px;
+font-size: 16px;
+color: #555;
+width: 100%; /* Adjust the width as needed */
+border-radius: 5px; /* Rounded corners */
+transition: border-color 0.3s;
+}
+
+.custom-search-input::placeholder {
+color: #999;
+}
+
+.custom-search-input:focus {
+border-bottom: 2px solid #ff6f61;
+outline: none;
+}
+
+
+.search-bar{
+width: 80%;
+}
+.container-1 {
+    margin: 10px;
+    position: relative;
+    top: 0;
+    border: 2px solid #32a1ce;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+select#job option {
+    font-size: 120%;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 767px) {
+    .d-none.d-xl-block {
+        display: none; /* Hide text for smaller screens */
+    }
+    .col-4,
+    .col-8 {
+        width: 50%; /* Make both icon and text take 50% width each */
+    }
+}
